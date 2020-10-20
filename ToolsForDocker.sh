@@ -220,7 +220,13 @@ GO111MODULE=on go get -u -v github.com/projectdiscovery/dnsprobe
 # echo "done"
 
 
-
+echo "installing bash_profile"
+git clone https://github.com/Shebl27/Red-Eye.git
+cd Bash_Profile
+cat .bash_profile >> ~/.bashrc
+source ~/.bashrc
+cd ~/tools/
+echo "done
 
 
 
